@@ -36,10 +36,10 @@ Amaç, ANN temel mantığını anlamak ve basit bir sınıflandırma modeli ile 
 ## Eğitim Parametreleri
 - Batch size: 32  
 - Epoch: 5  
-- Validation split: 10%  
-
+- Validation split: 10%
+  
+##Özet 
 Giriş (28x28) -> Flatten(784) -> Gizli Katman (128 nöron, ReLU) -> Çıkış Katmanı (10 nöron, Softmax)
 
-1. Gerekli paketleri yükleyin:
 ```bash
 pip install -r requirements.txt
